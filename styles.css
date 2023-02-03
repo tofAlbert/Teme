@@ -1,0 +1,83 @@
+h1, h4 {
+    margin: 1em auto;
+    text-align: center;
+  }
+   
+   body{
+     background-color: rgb(219, 140, 61);
+   }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    text-align: left;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 2px solid black;
+  }
+  
+  input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  input[type="email"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  input[type="number"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  input, textarea {
+    background-color: burlywood;
+    border: 1px solid #0a0a23;
+  }
+  
+  select{
+     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: burlywood;
+  }
+  
+  textarea {
+    display: block;
+    margin: 0.5rem 0;
+    text-align: left;
+    width: 100% 
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: burlywood;
+    border-color: white;
+    min-width: 300px;
+  }
+  #description{
+    text-align: center;
+  }

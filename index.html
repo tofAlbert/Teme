@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this form </p>
+     <form id="survey-form">
+      <fieldset>
+        <div class="cells">
+        <label for="first-name" id="name-label">First Name: <input id="first-name" name="first-name" type="text" required placeholder="Enter Your First Name" /></label>
+        <br>
+        <label for="last-name" id="email-label">Last Name: <input id="name" name="last-name" type="text" required placeholder="Enter Your Last Name"/></label>
+        <br>
+        <label for="email">Email: <input id="email" name="email" type="email" required placeholder="Enter Your Email" /></label>
+        <br>
+        <label for="age" id="number-label">Age: <input name="age" type="number" required  placeholder="Enter Your Age" min="12" max="120" id="number"/></label>
+     </div>
+      </fieldset>
+      <fieldset>
+          <label for="referrer" >Which option describes your current profession?
+          <select id="dropdown" name="referrer">
+            <option value="">select one</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Prefer not to say</option>
+            <option value="4">Other</option>
+          </select>
+        </label><br>
+    <fildset>
+      <p>Which Olympic sports do you prefer?</p>
+      <p>
+        <input type="radio" name="answer" value="summer olympic sports" class="answer"> Summer olympic sports <br />
+        <input type="radio" name="answer" value="winter olympic sports" class="answer"> Winter olympic sports <br />
+        <input type="radio" name="answer" value="no one" class="answer"> No one <br />
+      </p><br>
+      <p>
+        How often do you do sports?
+      </p>
+      <p>
+          <input type="radio" name="answer1" value="daily" class="answer"> Daily <br />
+          <input type="radio" name="answer1" value="3 times a week" class="answer"> 3 Times a week <br />
+          <input type="radio" name="answer1" value="2 times a week" class="answer"> 2 Times a week <br />
+          <input type="radio" name="answer1" value="never" class="answer"> Never <br />
+      </p><br>
+       <p>
+        How much time do you spend on the phone?
+      </p>
+      <p>
+          <input type="radio" name="answer2" value="one hour" class="answer"> One hour <br />
+          <input type="radio" name="answer2" value="more than 3 hours" class="answer"> More than 3 hours <br />
+          <input type="radio" name="answer2" value="almost all the time" class="answer"> Almost all the time <br />
+      </p>
+       <p>
+        Which sports do you find more attractive?
+      </p>
+      <p>
+        <input type="checkbox" name="gymnastics" value="gymnastics" class="answer"> Gymnastics <br />
+        <input type="checkbox" name="parkour" value="parkour" class="answer"> Parkour <br />
+        <input type="checkbox" name="air racing" value="air racing" class="answer"> Air racing <br />
+        <input type="checkbox" name="field archery" value="field archery" class="answer"> Field archery <br />
+        <input type="checkbox" name="sandboarding" value="sandboarding" class="answer"> Sandboarding <br />
+        <input type="checkbox" name="ice climbing" value="ice climbing" class="answer"> Ice climbing <br />
+        <p/>
+    </fieldset>
+        <fieldset>
+  <label for="bio">What do you think about playing sports?
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I think that sport..."></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+      <input id="submit" type="submit" value="Submit" />
+        </fieldset>
+        </form>
+  </body>
+</html>
