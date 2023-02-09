@@ -1,0 +1,94 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title id="title">Henry Moore</title>
+    <meta charset="utf-8"/>
+    <meta name="viwport" content="width=device-width", initial-scale="1.0"/>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <main id="main">
+  <body>
+    <h1>Henry Moore</h1>
+    <p>One of the most important animators of <a href="https://en.wikipedia.org/wiki/Modern_sculpture" target="_blank" id="tribute-link"> modern sculpture</a>.</p>
+    <figure id="img-div"><img src="https://www.merrittgallery.com/wp-content/uploads/2016/09/Screen-Shot-2016-09-14-at-2.03.19-PM.png" alt="Henry Moore" id="image"/>
+<figcaption id="img-caption"><i>Henry Moore, photographed by Lauren Bacall, 1945</i></fogcaption></figure>
+<ul id="tribute-info">
+  <li>Anglo-Irish sculptor and artist Henry Moore (1898 – 1986) made a huge impact in the 20th century with a dramatic collection of modern humanist works of art. A great deal of Moore’s artwork is monumental, large-scale abstract cast bronze sculptures, often suggestive of the female body. His abstract sculptures and etchings have been interpreted as reclining figures, reminiscent of the landscapes and hills of his birthplace, Yorkshire.</li>
+  <li>Moore grew up in a large family in a small coal-mining town near Leeds, north of England. Despite his parents’ wishes to pursue a job that would land him immediate financial security, Moore’s ambitions for sculpture held steadfast, and he was eventually awarded a scholarship at the Royal College of Art.</li>
+  <li>For inspiration, Moore collected pebbles, rocks, shells and bones, making drawings of them and studying them for principles of form and rhythm that would manifest in his creations. He began to open up his carvings with concavities, even piercing them with holes — a practice that the public initially found shocking since his work showed a strong suggestion to the human figure.</li>
+</ul>
+<img src="https://www.merrittgallery.com/wp-content/uploads/2016/09/T02295_9.jpg" alt="artwork"/>
+<figcaption id="img-caption"><i>Moore’s Working Model for Reclining Figure (Lincoln Center) 1963-5, cast date unknown | Photo courtesy of the Tate</i></figcaption>
+<ul id="tribute-info">
+  <li>In 1946, Moore’s work was exhibited in a large retrospective at the Museum of Modern Art in New York City, an occasion where American collectors began to purchase his work, freeing him of financial worries. Moore began to extend the range and scale of his works henceforward, fulfilling major commissions. His largest outdoor exhibition can be found at the Lincoln Center in New York City, a series of multipart reclining female figures, which have been compared to elements of cliffs, caves, hillsides, organic forms and bones.
+</li>
+<li>During his lifetime, Moore became a prolific printmaker, executing hundreds of etchings and lithographs. From images of his reclined figures to organic studies to other surreal compositions, this body of work has become quite notable.
+</li>
+<li>Today, Moore is regarded as one of the most important sculptors of the 20th century, a revolutionary artist with a fantastic imagination and dedication to humanity. He has dedicated a great deal of his wealth to the creation of the Henry Moore Foundation, an arts charity established by the artist in 1977 to encourage public appreciation of the visual arts, preserving his legacy and assisting arts organizations in the UK and abroad.</li>
+</ul>
+  </body>
+  </main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img{
+  width: 1000px;
+  hight: auto;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+h1, p{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+h1{
+  padding: 20px;
+}
+
+p{
+  padding: 10px;
+}
+
+#img-caption{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+#tribute-info{
+  text-align: left;
+  font-famili: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px; 
+margin: 0 auto 50 auto;
+line-hight: 1.6;
+max-width: 1000px;
+padding: 40px;
+}
+
+body{
+  background-color: burlywood;
+}
+
+#main{
+  background-color: rgb(209, 166, 110);
+  padding: 40px;
+  margin: 70px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+** end of undefined **
+
