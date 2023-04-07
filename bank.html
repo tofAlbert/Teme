@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BancaComercioalRomana</title>
+        <link rel="stylesheet" href="styles.css"
+    </head>
+    <body>
+        <header id="header">
+         <img id="logo" src="https://cdn0.erstegroup.com/content/dam/ro/bcr/common/logos/web/white/BCR_Logo_screen_white.svg" alt="BCR">
+         <h1 class="titlu">Banca Comercială Română</h1>
+         <nav>
+            <button class="tablink" onclick="openPage('Despre BCR', this)" id="defaultOpen">Despre BCR</button>
+            <button class="tablink" onclick="openPage('Simulator de Credite', this)">Simulator de Credite</button>
+            <button class="tablink" onclick="openPage('Simulator de Depozite', this)">Simulator de Depozite</button>
+              <div id="Despre BCR" class="tabcontent">
+                <h2>Scurt istoric</h2>
+                <ul class="istoric">
+                  <li><b>1990</b> - se constituie Banca Comercială Română prin preluarea activităţilor comerciale ale Băncii Naţionale a României</li>
+                  <li><b>1998</b> - BCR deschide o filială la Chișinău, în Republica Moldova</li>
+                  <li><b>1999</b>- BCR fuzionează prin absorbţie cu Bancorex</li>
+                  <li><b>2001</b>- BCR Leasing se lansează pe piaţa românească</li>
+                  <li><b>2003</b>- Privatizarea BCR, prin vânzarea pachetului de acţiuni către BERD şi IFC</li>
+                  <li><b>2004</b>- BCR instalează Automate de Schimb Valutar (ASV)2005 - Se înfiinţează BCR Asigurări de viaţă</li>
+                  <li><b>2006</b>- Banca austriacă Erste Bank finalizează achiziţionarea Băncii Comerciale Române. Erste Bank a achiziţionat 61,8825%* din acţiunile BCR de la Guvernul Român, BERD şi IFC în urma achitării a 3,75 miliarde Euro.</li>
+                  <li><b>2007</b>- BCR Administrare Fond de Pensii intră pe piaţa românească2008 - Banca Comercială Română vinde operaţiunile de asigurări către Vienna Insurance Group</li>
+                  <li><b>2008</b>- BCR Banca pentru Locuinţe intră pe piaţa românească</li>
+                  <li><b>2009</b>- BCR  adoptă un program de emitere de obligatiuni pe termen mediu – Medium Term Notes (MTN) – in valoare totala de 3 miliarde EUR.</li>
+                  <li><b>BCR</b> - care permite studenţilor efectuarea practicii în cadrul a şapte sucursale BCR din BucureştiBCR este prima instituţie bancară din România care a lansat o reţea de birouri specializate la nivel naţional - „EU Office BCR” - dedicate exclusiv fondurilor europene</li>
+                </ul>  
+              </div>
+              
+              <div id="Simulator de Credite" class="tabcontent">
+                <h2>Simulator de Credite</h2>
+                <p></p>
+                  <form class="form">
+                  <label for="name">Introduceti numele: </br><input id="name" name="name" type="text" required /></label></br>
+                  <label for="sum">Introduceti suma dorita: </br><input class="sum" name="sum" type="number" required /></label></br>
+                  <label for="restituiti">Pe ce perioada doriti sa restituiti banii: </br><input class="restituiti" name="restituiti" type="number" required /></label></br>
+                  <button type="button" class="button">Calculeaza</button>
+                  <p class="verifica"></p>
+                  </form>
+                  
+              </div>
+              
+              <div id="Simulator de Depozite" class="tabcontent">
+                <h2>Simulator de Depozite</h2>
+                <p></p>
+                <form class="form">
+                  <label for="name">Introduceti numele: </br><input id="name" name="name1" type="text" required /></label></br>
+                  <label for="sum">Introduceti suma pe care doriti sa o depuneti: </br><input class="sum1" name="sum" type="number" required /></label></br>
+                  <label for="restituiti">Pe ce perioada doriti sa depuneti banii: </br><input class="restituiti1" name="restituiti" type="number" required /></label></br>
+                  <button type="button" class="button1">Calculeaza</button>
+                  <p class="verifica1"></p>
+                  </form>
+              </div>
+         </nav>
+         <section id="home">
+            <h3 class="title">Cine suntem</h3>
+                    <p class="paragraf"><b class="align">Banca Comercială Română (BCR)</b>, membră a Erste Group, este unul dintre cele mai importante grupuri financiare din România,
+                          incluzând operaţiunile de bancă universală (retail, corporate & investment banking, trezorerie şi pieţe de capital), precum şi 
+                             societăţile de profil de pe piaţa leasingului, pensiilor private și a băncilor de locuinţe.
+
+                              BCR oferă o gamă completă de produse și servicii financiare, printr-o rețea de 19 centre de afaceri și 323 de unități retail
+                                 situate în majoritatea orașelor din țară cu peste 10.000 de locuitori. BCR este banca nr.1 în România pe piața tranzacțiilor
+                                 bancare, clienții BCR dispunând de una dintre cele mai mari retele nationale de ATM-uri si masini multifunctionale - 
+                                 aproximativ 1700 de echipamente bancare, 10.600 POS-uri și servicii bancare complete prin Internet banking, Mobile banking,
+                                Phone-banking și E-commerce. 
+                    </p>
+                <div class="img" >
+                    <img src="https://cdn0.erstegroup.com/gemlip/v1/dam/2fAEVbyEbw5prFkTqezhRMHjG4KR/ro/bcr/www_bcr_ro/Scoala-de-bani/w360_0_0_0_0_0_m_1606981849717.section_1.png.webp">
+                </div>
+         </section>
+        
+    </header>
+
+    <footer class="footer">
+      <ul>
+        <li><a href="#" id="footer-link"></a>Privacy</li>
+        <li><a href="#"></a>Terms</li>
+        <li><a href="#"></a>Contact</li>
+      </ul>
+      <span>Copyright 2023, BCR</span>
+          </footer>
+
+          <script type="text/javascript" src="credit.js"></script>
+    </body>
+    
+</html>
